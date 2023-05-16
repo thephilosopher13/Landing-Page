@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-shrink: 1;
+    font-size: 18px;
+}
+
+.containerone,
+.containertwo,
+.containerthree,
+.containerfour { 
+    padding-left: 128px;
+    padding-right: 128px;
+    flex-shrink: 0;
+    min-width: 1280px;
+}
+
+.containerone {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+}
+
+.header p {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    padding-left: 24px;
+    align-self: center;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px; 
+    padding: 0 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.containerone .subcontainer-1a {
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    gap: 256px;
+    flex: initial;
+
+}
+
+.containerone .subcontainer-1a div {
+    display: flex;
+    flex-direction: column;
+    max-width: 512px;
+    max-height: 384px;
+    align-items: flex-start;
+}
+
+.containerone .subcontainer-1a div h1,
+.containerone .subcontainer-1a div p  {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.containerone .subcontainer-1a img {
+    max-width: 512px;
+    flex-shrink: 1;
+    display: flex;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    text-align: center;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 1280px;
+}
+
+.subcontainer-2aI img {
+    width: 200px;
+    height: 200px;
+    flex: 1 0 auto;
+    display: flex;
+}
+
+.containertwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: none;
+}
+
+.containertwo .subcontainer-2a{
+    display: flex;
+    flex: none;
+    padding-left: 192px;
+    padding-right: 192px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.containertwo .subcontainer-2a .subcontainer-2aI .text-a{
+    width: 200px;
+    text-align: center;
+  }
+
+.containerthree {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.containerthree h1 {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 50;
+}
+
+.containerthree p {
+    font-weight: 800;
+    text-align: right;
+}
+
+.containerthree h1,
+.containerthree p {
+    width: 1200px;
+}
+
+.containerthree p {
+    font-weight: 800;
+    text-align: right;
+}
+
+.containerfour {
+    margin: 128px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerfour .subcontainer-4a {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 1280px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerfour .subcontainer-4a .subcontainer-4a1 {
+    flex-direction: column;
+}
+button {
+    background-color: #3882F6;
+    padding: 8px;
+    border-color: white;
+    height: 48px;
+    margin-top: 12px;
+    margin-top: 12px;
+}
+
+button a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 12px;
+    height: 72px;
+    color: #F9FAF8;
+}
